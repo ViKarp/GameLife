@@ -1,5 +1,8 @@
+package com.company;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Window window = new Window();
+        javax.swing.SwingUtilities.invokeLater(window);
     }
 }
